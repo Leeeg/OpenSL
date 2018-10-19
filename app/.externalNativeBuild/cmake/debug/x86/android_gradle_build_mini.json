@@ -1,0 +1,26 @@
+{
+  "buildFiles": [
+    "/home/lee/Personal/Auido/Android-OpenSLES-Demo-master/app/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/lee/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/lee/Personal/Auido/Android-OpenSLES-Demo-master/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "native-Debug-x86": {
+      "artifactName": "native",
+      "buildCommand": "/home/lee/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/lee/Personal/Auido/Android-OpenSLES-Demo-master/app/.externalNativeBuild/cmake/debug/x86 --target native",
+      "abi": "x86",
+      "output": "/home/lee/Personal/Auido/Android-OpenSLES-Demo-master/app/build/intermediates/cmake/debug/obj/x86/libnative.so"
+    },
+    "speexdsp-lib-Debug-x86": {
+      "artifactName": "speexdsp-lib",
+      "abi": "x86",
+      "output": "/home/lee/Personal/Auido/Android-OpenSLES-Demo-master/app/src/main/jni/../jnilibs/x86/libspeexdsp.so"
+    },
+    "speex-lib-Debug-x86": {
+      "artifactName": "speex-lib",
+      "abi": "x86",
+      "output": "/home/lee/Personal/Auido/Android-OpenSLES-Demo-master/app/src/main/jni/../jnilibs/x86/libspeex.so"
+    }
+  }
+}
